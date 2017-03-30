@@ -53,7 +53,11 @@ namespace Zoo
                     geld++;
                 } else if (fiche is Attractie)
                 {
-
+                    Dierenverblijf dierenverblijf = FindDierenverblijfVoorAttractie();
+                    if (dierenverblijf != null)
+                    {
+                        dierenverblijf.VoegAttractieToe((Attractie)fiche);
+                    }
                 }
             }
            
@@ -78,9 +82,14 @@ namespace Zoo
             int aantalDieren = 0;
             for (int i = 0; i < dierenverblijven.Length; i++)
             {
-                dierenverblijf.HeeftPlaatsVoorAttractie();
+                if (dierenverblijven[i].HeeftPlaatsVoorAttractie() &&
+                    dierenverblijven[i].AantalDieren > aantalDieren)
+                {
+                    dierenverblijf = dierenverblijven[i];
+                    aantalDieren = dierenverblijven[i].AantalDieren;
+                }
             }
-            return null;
+            return dierenverblijf;
         }
 
         private Dierenverblijf FindLeegDierenverblijf()

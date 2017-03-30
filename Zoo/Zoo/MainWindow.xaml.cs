@@ -29,7 +29,7 @@ namespace Zoo
         public MainWindow()
         {
             InitializeComponent();
-            spel = new Spel();
+            spel = new Spel(instructionBlock);
             zooSpeler1 = new Dierentuin(new Canvas[] { speler1vb1, speler1vb2, speler1vb3, speler1vb4, speler1vb5 });
             zooSpeler2 = new Dierentuin(new Canvas[] { speler2vb1, speler2vb2, speler2vb3, speler2vb4, speler2vb5 });
             transportkooien[0] = new Transportkooi(transportkooi1);
@@ -37,8 +37,7 @@ namespace Zoo
             transportkooien[2] = new Transportkooi(transportkooi3);
             stapel = new Stapel(stapelCanvas);
             textBlock_speler1.Background = new SolidColorBrush(Colors.Yellow);
-
-
+            spel.Start();
         }
 
         private void addTK1_Click(object sender, RoutedEventArgs e)
@@ -146,9 +145,9 @@ namespace Zoo
         private void enableAddButtons()
         {
             
-           addTK1.IsEnabled = !transportkooien[0].isVol();
-           addTK2.IsEnabled = !transportkooien[1].isVol();
-           addTK3.IsEnabled = !transportkooien[2].isVol();
+           addTK1.IsEnabled = transportkooien[0].Beschikbaar && !transportkooien[0].isVol();
+           addTK2.IsEnabled = transportkooien[1].Beschikbaar && !transportkooien[1].isVol();
+           addTK3.IsEnabled = transportkooien[2].Beschikbaar && !transportkooien[2].isVol();
           
         }
 

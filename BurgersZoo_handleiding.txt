@@ -1,0 +1,93 @@
+
+Doel van het spel
+
+Iedere speler is directeur van een dierentuin en probeert zoveel mogelijk bezoekers te trekken. Daartoe moet hij bij elkaar
+passende dieren verzamelen. Een speler die veel dieren in zijn dierentuin krijgt, kan deze uitbreiden. Atracties naast een
+dierenverplaats garanderen meer bezoekers. Wie aan het einde van het spel de meeste punten heeft, is de winnaar.
+
+Spelverloop
+
+Het spel verloopt over een aantal ronden.
+
+In zijn beurt moet een speler één van de volgende acties uitvoeren:
+A. Een fiche van de stapel nemen en in een transportkooi leggen; of
+B. een transportkooi (met minstens 1 fiche) nemen en de rest van de ronde passen; of
+C. een te betalen actie uitvoeren
+
+Een ronde is afgelopen als iedere speler een transportkooi heeft genomen. Daarna begint een nieuwe ronde.
+
+A. Een fiche in een transportkooi doen
+
+De speler die aan de beurt is trekt de bovenste fiche van de gedekte stapel, draait deze om en
+legt deze vervolgens open in een transportkooi naar keuze. Daarna is zijn beurt afgelopen.
+Een transportkooi heeft ruimte voor maximaal 3 fiches. Als alle transportkooien al met 3 fiches
+zijn beladen, kan de speler deze actie niet kiezen en moet hij actie B of C kiezen.
+
+B. Een transportkooi nemen en de rest van de ronde passen
+
+De speler kiest één van de nog niet genomen transportkooien en fiches worden toegevoegd aan 
+de dierentuin van de speler volgens de volgende regels:
+
+- Dieren:
+	Dierenfiches worden op een leeg veld in een dierenverblijfplaats gelegd. Een dierenverblijfplaats
+        mag echter maar één soort dier bevatten. Als er geen dierenverblijfplaatsen meer beschikbaar zijn
+        wordt het dier in de tijdelijke verblijfplaats gelegd.
+
+- Attracties:
+       Attracties worden aan een dierenverblijfplaats toegevoegd. Het dierenverblijf met de meeste dieren
+       wordt gezocht om de attractie aan toe te voegen. Als er geen plaatsen meer beschikbaar zijn
+       voor een attractie, wordt deze attractie aan de kant gelegd en gaat hij verloren. (Een mogelijke 
+	uitbreiding is om deze attraties bij te houden in de tijdelijke verblijfplaats zodat je 
+       tegenspeler hem kan kopen).
+
+-Munten:
+	De "waarde" van de zoo wordt met 1 verhoogd.
+
+
+Een speler die een transportkooi heeft genomen, moet de rest van de ronde passen. Hij mag in de
+volgende ronde weer meedoen. 
+Let wel op: Een speler mag een transportkooi zonder fiche niet nemen.
+
+C. Een te betalen actie uitvoeren
+Indien je over munten beschikt, kan je een te betalen actie uitvoeren.
+1. Wissel
+2. Fiche kopen
+3. Dierentuin uitbreiden
+
+Een ronde is afgelopen als iedere speler een transportkooi heeft genomen.
+De speler die de laatste transportkooi in de zojuist afgelopen ronde heeft genomen, wordt
+de startspeler van de volgende ronde.
+Als er bij de start van een ronde nog minder dan 15 fiches in de gedekte stapel zijn, wordt de laatste ronde
+gespeeld. Het spel is afgelopen nadat iedere speler in deze ronde een transportkooi heeft genomen.
+
+Speciale situaties:
+
+Jongen: 
+Van elke soort zijn er 2 vruchtbare mannetjes en 2 vruchtbare vrouwtjes, te herkennen aan de kleine 
+symbolen op de fiches.
+
+Zodra 2 vruchtbare exemplaren vaan verschillend geslacht in een dierenverblijfplaats terechtkomen, 
+krijgen ze direct een jong.
+Het jong komt op een lege plaats in de verblijfplaats van de 
+
+De waarde van een dierentuin tellen
+
+Als een speler een volle verblijfplaats heeft (= alle dierenvelden zijn gevuld)  dan krijgt
+de speler de hoogste van de afgebeelde waarde van de verblijfplaats.
+
+Als een speler een verblijfplaats heeft waarin 1 dier ontbreekt wordt de laagste waarde van
+de verblijfplaats geteld.
+
+Voor een verblijfplaats met 2 of meer lege velden krijgt de speler punten als hij in deze
+verblijfplaats ten minse één attractie heeft. Hij krijgt in dit geval 1 punt per dier
+in deze verblijfplaats.
+
+Per soort attractie in je dierentuin krijg je 2 punten.
+Per soort dier in de tijdelijke verblijfplaats trek je 2 punten af van het totaal.
+
+De speler met de meeste punten wint het spel.
+
+Bij een gelijke stand wint de speler met de meeste munten.
+Is het dan nog gelijk, dan delen beide spelers de overwinning.
+
+

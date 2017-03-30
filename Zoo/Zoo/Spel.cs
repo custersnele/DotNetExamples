@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Controls;
 
 namespace Zoo
 {
@@ -11,7 +12,21 @@ namespace Zoo
         private int ronde;
         private bool[] transportkooiGenomen = new bool[2];
         private int huidigeSpeler;
+        private TextBlock instructieBlock;
 
+        public Spel(TextBlock instructieBlock)
+        {
+            this.instructieBlock = instructieBlock;
+            ronde = 1;
+            InitSpelers();
+            huidigeSpeler = 1;
+        }
+
+        public void Start()
+        {
+            instructieBlock.Text += "Ronde 1\n";
+            instructieBlock.Text += "Speler1: draai een fiche om en plaats ze in een transportkooi.";
+        }
 
         public int HuidigeSpeler
         {
@@ -20,13 +35,6 @@ namespace Zoo
                 return huidigeSpeler;
 
             }
-        }
-
-        public Spel()
-        {
-            ronde = 1;
-            InitSpelers();
-            huidigeSpeler = 1;
         }
 
         private void InitSpelers()
@@ -39,6 +47,9 @@ namespace Zoo
             ronde++;
             transportkooiGenomen[0] = false;
             transportkooiGenomen[1] = false;
+            instructieBlock.Text = "Ronde " + ronde;
+            instructieBlock.Text += "Speler " + huidigeSpeler + " : draai een fiche om en plaats ze in een transportkooi.";
+            instructieBlock.Text += "\nOF kies een transportkooi.";
         }
 
         public bool IsRondeVoorbij()
@@ -62,6 +73,8 @@ namespace Zoo
                     huidigeSpeler = 1;
                
             }
+            instructieBlock.Text = "Speler " + huidigeSpeler + " : draai een fiche om en plaats ze in een transportkooi.";
+            instructieBlock.Text += "\nOF kies een transportkooi.";
         }
 
     }

@@ -16,6 +16,15 @@ namespace Zoo
         private Image[] images = new Image[maxFiches];
         private int aantalFiches = 0;
         private Canvas canvas;
+        private bool beschikbaar;
+
+        public bool Beschikbaar
+        {
+            get
+            {
+                return beschikbaar;
+            }
+        }
 
         public Transportkooi(Canvas canvas)
         {
@@ -29,6 +38,7 @@ namespace Zoo
             aantalFiches = 0;
             fiches = new TransportFiche[maxFiches];
             images = new Image[maxFiches];
+            beschikbaar = true;
     }
 
         public Boolean isLeeg()
@@ -43,6 +53,7 @@ namespace Zoo
 
         public TransportFiche neemFiche()
         {
+            beschikbaar = false;
             TransportFiche fiche = fiches[aantalFiches - 1];
             fiches[aantalFiches - 1] = null;
             canvas.Children.Remove(images[aantalFiches - 1]);
